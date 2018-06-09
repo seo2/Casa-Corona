@@ -1,0 +1,69 @@
+html,body{height: 100%;}
+body{font-family: 'Lato', sans-serif; color: #fff; text-transform: uppercase;}
+.h80{height: 80%}
+.h100{height: 100%}
+.w100{width: 100%;}
+/* 
+	A G E G A T E 
+*/
+body#agegate{background: url(../img/bg-agegate.jpg) center center no-repeat; background-size: cover;}
+#logo-casa_corona{ margin: 30px 0;}
+
+.btn{background: transparent; border: none; transition: all ease-in-out 0.2s}
+.btn:hover{opacity: 0.6;}
+
+
+footer a{color: #fff;}
+footer a:hover{color: #fff;}
+
+
+
+/* 
+	H O M E
+*/
+
+body#home{background: url(../img/bg-home.jpg) center bottom no-repeat; background-size: cover;}
+
+.nav-item.col{padding: 0;}
+#logo {
+/*   background: #ccc; */
+  width: 150px;
+/*   height: 70px; */
+}
+
+.navbar-toggler {
+  margin-top: 15px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: #fff;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #fff; 
+}
+.navbar-light .navbar-nav .nav-link:focus span, .navbar-light .navbar-nav .nav-link:hover span, 
+.active span{border-bottom: 1px solid; padding-bottom: 10px;}
+
+
+@media screen and (min-width: 992px) {
+  .navbar { height: 200px; }
+  #logo { width: 160px; height: auto; position: relative; top: 0; }
+  .navbar-light .navbar-nav .nav-link { margin: 0; font-size: 20px; letter-spacing: 2px; text-align: center;}
+  #nav-left { padding-left: 30px; }
+}
+
+/*
+	
+	L A N D I N G
+	
+*/
+
+#landing-top{height: 100%; 	background: url(../img/bg-home1.jpg) center center no-repeat; background-size: cover;}
+#pincelazo{position: absolute; width: 100%; bottom: 0;}
+#baja1{position: absolute; z-index: 1000; bottom: 30px; width: 50px; left: 50%; margin-left: -25px;}
+#landing-intro{color: rgb(7, 35, 65);}
+h1{font-weight: bold;   font-size: 26px;}
